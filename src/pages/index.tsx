@@ -27,7 +27,7 @@ import ContactFormSection from '../components/WebPageComponents/ContactFormCompo
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'POS';
+  const projectName = 'CRM';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -125,10 +125,10 @@ export default function WebSite() {
           content={`Discover our CRM app tailored for the law industry, designed to connect departments, track leads, and streamline operations. Enhance your firm's efficiency today.`}
         />
       </Head>
-      <WebSiteHeader projectName={'POS'} pages={pages} />
+      <WebSiteHeader projectName={'CRM'} pages={pages} />
       <main className={`flex-grow  ${bgColor}    rounded-none  `}>
         <HeroSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Law professionals collaborating efficiently']}
           mainText={`Revolutionize Your Law Firm's Efficiency`}
           subTitle={`Connect departments seamlessly with our CRM app tailored for the law industry. Organize notes, track leads, and enhance collaboration effortlessly.`}
@@ -137,7 +137,7 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Dashboard showcasing CRM features']}
           withBg={1}
           features={features_points}
@@ -147,14 +147,14 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'POS'}
+          projectName={'CRM'}
           design={TestimonialsDesigns.HORIZONTAL_CAROUSEL || ''}
           testimonials={testimonials}
           mainText={`What Our Clients Say About ${projectName} `}
         />
 
         <AboutUsSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Team collaborating in modern office']}
           mainText={`Empowering Law Firms with ${projectName}`}
           subTitle={`At ${projectName}, we are dedicated to revolutionizing the legal industry by providing a comprehensive CRM solution. Our mission is to streamline operations, enhance collaboration, and drive success for law firms worldwide.`}
@@ -163,14 +163,14 @@ export default function WebSite() {
         />
 
         <ContactFormSection
-          projectName={'POS'}
+          projectName={'CRM'}
           design={ContactFormDesigns.WITH_IMAGE || ''}
           image={['Person typing on a laptop']}
           mainText={`Get in Touch with ${projectName} `}
           subTitle={`Reach out to us anytime for inquiries or support. Our team is here to assist you and will respond promptly to your messages.`}
         />
       </main>
-      <WebSiteFooter projectName={'POS'} pages={pages} />
+      <WebSiteFooter projectName={'CRM'} pages={pages} />
     </div>
   );
 }

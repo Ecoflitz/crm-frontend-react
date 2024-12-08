@@ -5,7 +5,7 @@ import LayoutGuest from '../layouts/Guest';
 import { getPageTitle } from '../config';
 
 export default function PrivacyPolicy() {
-  const title = 'POS';
+  const title = 'CRM';
   const [projectUrl, setProjectUrl] = useState('');
 
   useEffect(() => {
@@ -164,8 +164,7 @@ export default function PrivacyPolicy() {
         <h3>11. Contact Information</h3>
         <p>
           If you have any questions about these Terms of Use, please contact us
-          at:{' '}
-          <a href='mailto:support@ecoflitz.com'> [support@ecoflitz.com]</a>
+          at: <a href='mailto:support@ecoflitz.com'> [support@ecoflitz.com]</a>
         </p>
       </>
     );

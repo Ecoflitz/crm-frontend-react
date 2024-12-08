@@ -18,7 +18,7 @@ import FaqSection from '../../components/WebPageComponents/FaqComponent';
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'POS';
+  const projectName = 'CRM';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -100,10 +100,10 @@ export default function WebSite() {
           content={`Find answers to common questions about our CRM solutions for the law industry. Learn more about features, support, and how ${projectName} can benefit your firm.`}
         />
       </Head>
-      <WebSiteHeader projectName={'POS'} pages={pages} />
+      <WebSiteHeader projectName={'CRM'} pages={pages} />
       <main className={`flex-grow  ${bgColor}    rounded-none  `}>
         <HeroSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Open book with question marks']}
           mainText={`Your ${projectName} Questions Answered Here`}
           subTitle={`Explore our comprehensive FAQ section to find answers to your questions about ${projectName}. Learn how our CRM solutions can enhance your legal operations.`}
@@ -112,13 +112,13 @@ export default function WebSite() {
         />
 
         <FaqSection
-          projectName={'POS'}
+          projectName={'CRM'}
           design={FaqDesigns.ACCORDION || ''}
           faqs={faqs}
           mainText={`Frequently Asked Questions About ${projectName} `}
         />
       </main>
-      <WebSiteFooter projectName={'POS'} pages={pages} />
+      <WebSiteFooter projectName={'CRM'} pages={pages} />
     </div>
   );
 }

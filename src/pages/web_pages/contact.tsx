@@ -18,7 +18,7 @@ import ContactFormSection from '../../components/WebPageComponents/ContactFormCo
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'POS';
+  const projectName = 'CRM';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -62,10 +62,10 @@ export default function WebSite() {
           content={`Reach out to our team for inquiries, support, or feedback. We're here to assist you with any questions about our CRM solutions for the law industry.`}
         />
       </Head>
-      <WebSiteHeader projectName={'POS'} pages={pages} />
+      <WebSiteHeader projectName={'CRM'} pages={pages} />
       <main className={`flex-grow  ${bgColor}    rounded-none  `}>
         <HeroSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Customer support team ready to assist']}
           mainText={`Connect with ${projectName} Today`}
           subTitle={`Have questions or need assistance? Our team is here to help. Reach out to us for support or inquiries about our CRM solutions for the law industry.`}
@@ -74,14 +74,14 @@ export default function WebSite() {
         />
 
         <ContactFormSection
-          projectName={'POS'}
+          projectName={'CRM'}
           design={ContactFormDesigns.WITH_IMAGE || ''}
           image={['Person typing on a laptop']}
           mainText={`Reach Out to ${projectName} Support `}
           subTitle={`We're available to assist you with any questions or concerns. Expect a prompt response from our dedicated team.`}
         />
       </main>
-      <WebSiteFooter projectName={'POS'} pages={pages} />
+      <WebSiteFooter projectName={'CRM'} pages={pages} />
     </div>
   );
 }

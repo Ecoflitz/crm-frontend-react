@@ -24,7 +24,7 @@ import TestimonialsSection from '../../components/WebPageComponents/Testimonials
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'POS';
+  const projectName = 'CRM';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -122,10 +122,10 @@ export default function WebSite() {
           content={`Learn more about our mission, values, and the team behind our innovative CRM solutions for the law industry. Discover how we aim to transform legal operations.`}
         />
       </Head>
-      <WebSiteHeader projectName={'POS'} pages={pages} />
+      <WebSiteHeader projectName={'CRM'} pages={pages} />
       <main className={`flex-grow  ${bgColor}    rounded-none  `}>
         <HeroSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Team brainstorming in modern office']}
           mainText={`Meet the Visionaries Behind ${projectName}`}
           subTitle={`Discover the passion and dedication driving our team to innovate and transform the legal industry. Learn about our journey and commitment to excellence.`}
@@ -134,7 +134,7 @@ export default function WebSite() {
         />
 
         <AboutUsSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Team discussing project strategy']}
           mainText={`Our Journey with ${projectName} Begins`}
           subTitle={`At ${projectName}, we are committed to revolutionizing the legal industry with innovative CRM solutions. Our mission is to empower law firms with tools that enhance efficiency and collaboration.`}
@@ -143,7 +143,7 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Features displayed on a screen']}
           withBg={1}
           features={features_points}
@@ -153,13 +153,13 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'POS'}
+          projectName={'CRM'}
           design={TestimonialsDesigns.MULTI_CARD_DISPLAY || ''}
           testimonials={testimonials}
           mainText={`Hear from Our Satisfied ${projectName} Users `}
         />
       </main>
-      <WebSiteFooter projectName={'POS'} pages={pages} />
+      <WebSiteFooter projectName={'CRM'} pages={pages} />
     </div>
   );
 }

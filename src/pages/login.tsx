@@ -50,7 +50,7 @@ export default function Login() {
     remember: true,
   });
 
-  const title = 'POS';
+  const title = 'CRM';
 
   // Fetch Pexels image/video
   useEffect(() => {
@@ -191,7 +191,7 @@ export default function Login() {
           <div className='flex items-center justify-center flex-col space-y-4 w-full lg:w-full'>
             <CardBox id='loginRoles' className='w-full md:w-3/5 lg:w-2/3'>
               <Link href={'/home'}>
-                <h2 className='text-4xl font-semibold my-4'> POS</h2>
+                <h2 className='text-4xl font-semibold my-4'> CRM</h2>
               </Link>
 
               <div className='flex flex-row text-gray-500 justify-between'>

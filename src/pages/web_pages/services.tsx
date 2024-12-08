@@ -21,7 +21,7 @@ import TestimonialsSection from '../../components/WebPageComponents/Testimonials
 export default function WebSite() {
   const cardsStyle = useAppSelector((state) => state.style.cardsStyle);
   const bgColor = useAppSelector((state) => state.style.bgLayoutColor);
-  const projectName = 'POS';
+  const projectName = 'CRM';
 
   useEffect(() => {
     const darkElement = document.querySelector('body .dark');
@@ -137,10 +137,10 @@ export default function WebSite() {
           content={`Explore the comprehensive services offered by our CRM solution tailored for the law industry. Discover how we can streamline your firm's operations and boost productivity.`}
         />
       </Head>
-      <WebSiteHeader projectName={'POS'} pages={pages} />
+      <WebSiteHeader projectName={'CRM'} pages={pages} />
       <main className={`flex-grow  ${bgColor}    rounded-none  `}>
         <HeroSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Law firm team in discussion']}
           mainText={`Transform Your Legal Services with ${projectName}`}
           subTitle={`Discover how ${projectName} can revolutionize your law firm's operations. Our tailored CRM services enhance efficiency, streamline processes, and drive success.`}
@@ -149,7 +149,7 @@ export default function WebSite() {
         />
 
         <FeaturesSection
-          projectName={'POS'}
+          projectName={'CRM'}
           image={['Features displayed on a tablet']}
           withBg={1}
           features={features_points}
@@ -159,13 +159,13 @@ export default function WebSite() {
         />
 
         <TestimonialsSection
-          projectName={'POS'}
+          projectName={'CRM'}
           design={TestimonialsDesigns.HORIZONTAL_CAROUSEL_DIVERSITY || ''}
           testimonials={testimonials}
           mainText={`What Our Clients Love About ${projectName} `}
         />
       </main>
-      <WebSiteFooter projectName={'POS'} pages={pages} />
+      <WebSiteFooter projectName={'CRM'} pages={pages} />
     </div>
   );
 }
