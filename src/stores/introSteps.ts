@@ -18,7 +18,7 @@ export const landingSteps: Step[] = [
     element: '#elementId1',
     intro: `
           <div class="text-center text-black ">
-            <img src="https://ecoflitz.co.uk/wp-content/uploads/2024/11/Ecoflitz-1.png" alt="Description" class="w-full mb-2 object-cover" />
+            <img src="https://ecoflitz.co.uk/wp-content/uploads/2024/11/ecoflitz-dark-logo.png" alt="Description" class="w-full mb-2 object-cover" />
             <p>Welcome to our app tutorial! Get a sneak peek into the key functionalities and learn how to navigate seamlessly. Here's a quick overview to get you started.</p>
           </div>
         `,
