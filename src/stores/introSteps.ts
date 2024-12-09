@@ -18,7 +18,7 @@ export const landingSteps: Step[] = [
     element: '#elementId1',
     intro: `
           <div class="text-center text-black ">
-            <img src="https://ecoflitz.com/blog/wp-content/uploads/2024/10/good_img.png" alt="Description" class="w-full mb-2 object-cover" />
+            <img src="https://ecoflitz.co.uk/wp-content/uploads/2024/11/Ecoflitz-1.png" alt="Description" class="w-full mb-2 object-cover" />
             <p>Welcome to our app tutorial! Get a sneak peek into the key functionalities and learn how to navigate seamlessly. Here's a quick overview to get you started.</p>
           </div>
         `,
@@ -141,7 +141,7 @@ export const rolesSteps: Step[] = [
     element: '#feedbackSection',
     intro: `
     <div class="text-center ">
-      <img src="https://ecoflitz.com/blog/wp-content/uploads/2024/10/end_guide.png" alt="Description" class="w-full mb-2 object-cover" />
+      <img src="hhttps://ecoflitz.co.uk/wp-content/uploads/2025/01/end_guide.png" alt="Description" class="w-full mb-2 object-cover" />
       <p>Thank you for completing the tour! We hope you now have a better understanding of the app.</p>
       <p>If you have any questions, feel free to reach out to us at <a href="mailto:support@ecoflitz.com" class="text-blue-500 underline">support@ecoflitz.com</a>.</p>
     </div>
