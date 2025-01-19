@@ -250,7 +250,7 @@ export default function PrivacyPolicy() {
         </p>
         <div>
           By email:{' '}
-          <a href='mailto:support@ecoflitz.com'> [support@ecoflitz.com]</a>
+          <a href='mailto:support@ecoflitz.co.uk'> [support@ecoflitz.co.uk]</a>
         </div>
         <div>
           By visiting this page on our website:{' '}
