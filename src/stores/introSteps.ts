@@ -143,7 +143,7 @@ export const rolesSteps: Step[] = [
     <div class="text-center ">
       <img src="hhttps://ecoflitz.co.uk/wp-content/uploads/2025/01/end_guide.png" alt="Description" class="w-full mb-2 object-cover" />
       <p>Thank you for completing the tour! We hope you now have a better understanding of the app.</p>
-      <p>If you have any questions, feel free to reach out to us at <a href="mailto:support@ecoflitz.com" class="text-blue-500 underline">support@ecoflitz.com</a>.</p>
+      <p>If you have any questions, feel free to reach out to us at <a href="mailto:support@ecoflitz.co.uk" class="text-blue-500 underline">support@ecoflitz.co.uk</a>.</p>
     </div>
   `,
     position: 'auto',
